@@ -51,7 +51,7 @@ with c2:
     st.write(f'''<h4 style="margin-left:135px"> Current Balance: {l[6]}</h4>''',unsafe_allow_html=True)
 def mail(name,type_,id,to_):
     server=smtplib.SMTP_SSL("smtp.gmail.com",465)
-    server.login("sarvesh20123@gmail.com","agcrudcldljbnylx")
+    server.login("araamji2003@gmail.com","svhawgmujaawhkix")
     # text=f"Hello ! \nYou now can register for upcoming Technotronz events\nYour login credentials are :\nRegistration ID: TZ23{str(int(r[4:])+1)}\nName: {name}\nContact number: {ph}\n\nNote: You can use this mail as verification if the registration pdf went missing.\n\nBest regards,\nTeam Technotronz."
     text=f"Hello {name},\nYou have requested for {type_}.\nYour Transaction ID is: {id}.\n\nNOTE: This Transaction ID is valid for 24 hours."
     message='Subject: {}\n\n{}'.format("Your request has been submitted.",text )
