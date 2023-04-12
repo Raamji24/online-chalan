@@ -88,7 +88,7 @@ with c2:
 with c3:
 	# st.write('''<h5 style="font-family: Helvetica; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;"><span style="color: black">Username</span></h1>''',unsafe_allow_html=True)
 	acc_no= st.text_input('Account number:')
-	passwd= st.text_input('Password:')
+	passwd= st.text_input('Password:', type="password")
 	# one,two,three=c3.columns([0.3,0.3,0.4])
 
 	if st.button('Login'):
