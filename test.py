@@ -8,4 +8,4 @@ creds = ServiceAccountCredentials.from_json_keyfile_name("kriya.json", scope)
 client = gspread.authorize(creds)
 sheet = client.open("kriya").sheet1 
 data = sheet.get_all_records()
-print(data)
+print(data," ")
