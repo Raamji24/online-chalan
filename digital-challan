@@ -23,7 +23,7 @@ with c2:
             break
     st.write(f'''<h4 style="margin-left:135px"> Account number: {l[0]}</h4>''',unsafe_allow_html=True)
     st.write(f'''<h4 style="margin-left:135px"> Name: {l[2]}</h4>''',unsafe_allow_html=True)
-    st.write(f'''<h4 style="margin-left:135px"> DOB: {l[3]}</h4>''',unsafe_allow_html=True)
+    st.write(f'''<h4 style="margin-left:135px"> DoB: {l[3]}</h4>''',unsafe_allow_html=True)
     st.write(f'''<h4 style="margin-left:135px"> Branch: {l[4]}</h4>''',unsafe_allow_html=True)
     st.write(f'''<h4 style="margin-left:135px">Phone No.: {l[5]}</h4>''',unsafe_allow_html=True)
     st.write(f'''<h4 style="margin-left:135px"> Current Balance: {l[6]}</h4>''',unsafe_allow_html=True)
